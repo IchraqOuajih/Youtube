@@ -1,0 +1,87 @@
+body {
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* Nécessaire pour positionner les éléments enfants */
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo couvre toute la fenêtre sans déformer l'image */
+    z-index: -1; /* Envoie la vidéo derrière le contenu */
+}
+.start {
+    z-index: 1; 
+    text-align: center;
+    color: white; 
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    margin-top: 500px;  /* Ajustez la valeur pour décaler davantage vers le bas */
+}
+
+
+
+.b1 {
+    cursor: pointer;
+    background-color: rgb(253, 30, 30);
+    border-radius: 50px;  
+    padding: 15px 30px;  
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+    text-transform: uppercase;  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+.b1:hover {
+    transform: scale(1.1);  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+    background-color:white;  
+}
+
+.b1:active {
+    transform: scale(1.05); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+.b2 {
+    cursor: pointer;
+    background-color: rgb(253, 30, 30);
+    border-radius: 50px;  
+    padding: 15px 30px;  
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+.b2:hover {
+    transform: scale(1.1);  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+    color: rgb(226, 216, 216);
+    background-color: rgb(2, 7, 11);  
+}
+
+.b2:active {
+    transform: scale(1.05); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+.start h2{
+    text-align: center;
+
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.start h1{
+    font-size: medium;
+}
