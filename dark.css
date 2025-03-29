@@ -1,0 +1,29 @@
+.rec1{
+    
+    width: 21px;
+    height: 1px;
+    background-color: white;
+
+}
+.left
+{
+    display: flex;
+   gap: 10px;
+}
+
+.rects
+{
+    display: flex;
+    gap: 5px;
+    flex-direction: column ;
+    margin-top: 6.4px;
+}
+body{
+ background-color: #212121;
+}
+.imag img
+{
+
+    height: 20px;
+    width: ;
+}
