@@ -10,7 +10,32 @@
     display: flex;
    gap: 10px;
 }
+.search-bar
+{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+    
+   
+}
+.search-input
+{
+    width: 600px;
+    height: 35px;
+    background-color:#212121 ;
+    color: white;
+    font-size: inherit;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 
+}
+.search-bar img{
+    background-color: rgb(61, 62, 62);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 35px;
+    height: 37px; 
+}
 .rects
 {
     display: flex;
@@ -26,4 +51,18 @@ body{
 
     height: 20px;
     width: ;
+}
+.micic img{
+    background-color:rgb(61, 62, 62);
+   border-radius: 50%;
+   color: white;
+     height: 35px;
+    width: 30.5px;
+}
+.head{
+    display: flex;
+    }
+.midle
+{
+    display: flex;
 }
