@@ -27,10 +27,10 @@
     font-size: inherit;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-
+border-color: #54575a;
 }
 .search-bar img{
-    background-color: rgb(61, 62, 62);
+    background-color:rgb(50, 51, 51);
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 35px;
@@ -53,7 +53,7 @@ body{
     width: ;
 }
 .micic img{
-    background-color:rgb(61, 62, 62);
+    background-color:rgb(50, 51, 51);
    border-radius: 50%;
    color: white;
      height: 35px;
@@ -61,8 +61,64 @@ body{
 }
 .head{
     display: flex;
+    justify-content: space-between;
     }
 .midle
 {
     display: flex;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(50, 51, 51);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #54575a;
+}
+
+.icon {
+    width: 20px;  
+    background-color:rgb(50, 51, 51);
+    height: 20px;
+    margin-right: 10px;  
+    
+}
+
+span {
+    font-weight: bold;
+}
+.right{
+    display: flex;
+}
+.bell
+{
+border: 0;
+    background-color: #212121;
+}
+.bell:hover {
+    background-color: #54575a;
+    border-radius: 50px;
+}
+.small img
+{
+    border-radius: 50%;
+    height: 35px;
+    width: 40px;
+}
+.right
+{
+    display: flex;
+    gap: 10px;
 }
